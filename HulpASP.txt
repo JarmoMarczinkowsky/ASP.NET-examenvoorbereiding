@@ -1,1 +1,4 @@
 https://learn.microsoft.com/nl-nl/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-7.0&tabs=visual-studio
+
+hier ben ik
+https://learn.microsoft.com/nl-nl/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-7.0&tabs=visual-studio
