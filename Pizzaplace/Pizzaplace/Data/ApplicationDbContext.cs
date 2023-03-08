@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Pizzaplace.Models;
 
 namespace Pizzaplace.Data
 {
@@ -9,5 +10,6 @@ namespace Pizzaplace.Data
             : base(options)
         {
         }
+        public DbSet<Pizzaplace.Models.Pizzas> Pizzas { get; set; } = default!;
     }
 }
