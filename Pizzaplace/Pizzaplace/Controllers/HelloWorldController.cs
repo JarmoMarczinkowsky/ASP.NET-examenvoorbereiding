@@ -12,10 +12,10 @@ namespace Pizzaplace.Controllers
         }
         // 
         // GET: /HelloWorld/Welcome/ 
-        public IActionResult Welcome(string name = "silent", int age = 21, string message = "nothing")
+        public IActionResult Welcome(string name = "silent", int numTimes = 21, string message = "nothing")
         {
             ViewData["Message"] = $"Hello {name}";
-            ViewData["myAge"] = $"Your age is {age}";
+            ViewData["NumTimes"] = numTimes;
             return View();
         }
     }
