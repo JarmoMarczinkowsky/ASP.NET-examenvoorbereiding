@@ -14,18 +14,18 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="PizzaName" class="control-label"></label>
+                <label asp-for="PizzaName" class="control-label">Name of pizza</label>
                 <input asp-for="PizzaName" class="form-control" />
                 <span asp-validation-for="PizzaName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PrepareTime" class="control-label"></label>
+                <label asp-for="PrepareTime" class="control-label">Time to prepare (in minutes)</label>
                 <input asp-for="PrepareTime" class="form-control" />
                 <span asp-validation-for="PrepareTime" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PizzaPrice" class="control-label"></label>
-                <input asp-for="PizzaPrice" class="form-control" />
+                <label asp-for="PizzaPrice" class="control-label">Price of pizza</label>
+                <input asp-for="PizzaPrice" class="form-control" step="0.01" type="number"/>
                 <span asp-validation-for="PizzaPrice" class="text-danger"></span>
             </div>
             <div class="form-group">
